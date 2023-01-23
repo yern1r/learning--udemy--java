@@ -1,7 +1,6 @@
 package OOP.Inheritance;
 
-import OOP.Inheritance.Inheritance.Cat;
-import OOP.Inheritance.Inheritance.Lion;
+
 
 public class Inheritance {
     //has methods, variables in common

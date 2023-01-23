@@ -1,6 +1,6 @@
 package OOP.Inheritance;
 
-import OOP.Inheritance.Inheritance.CatFamily;
+
 
 public class Lion  extends CatFamily {
     public Lion() {
