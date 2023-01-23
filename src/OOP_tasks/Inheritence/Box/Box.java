@@ -1,4 +1,4 @@
-package OOP_tasks.Box;
+package OOP_tasks.Inheritence.Box;
 
 public class Box {
     private int length;
@@ -26,4 +26,13 @@ public class Box {
         System.out.println("Length: " + length + " Width: "+ width + " Height: " + height);
     }
 
+//---default method which all class have ------
+    @Override
+    public String toString() {
+        //return "width: " + width + "\n" + "height: " + height + "\n" + "length: " + length + "\n" ;
+
+        //using %s for variables
+        String finalBox = String.format("Width: %s\nLength: %s \nHeight: %s", width , length ,height);
+        return finalBox;
+    }
 }

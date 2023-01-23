@@ -1,4 +1,4 @@
-package OOP_tasks.Box;
+package OOP_tasks.Inheritence.Box;
 
 public class BoxWeight extends Box{
     private int weight;
