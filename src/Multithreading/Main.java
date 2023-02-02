@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //RunnableTimer runnableTimer = new RunnableTimer(); //creating object then give it as parameter
+        //RunnableTimer runnableTimer = new RunnableTimer();
+        // creating object then give it as parameter
 
         //new flow
         Thread timer = new Thread(new Runnable(){ //anonymous class
